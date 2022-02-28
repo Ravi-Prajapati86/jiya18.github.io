@@ -6,9 +6,29 @@
 
 	<style>
 	
+	.carousel-desc {
+		margin: auto;
+		width: 60%;
+		margin-bottom: 80px;
+	}
+
+	.carousel-desc> h1{
+	 text-align: center;
+	}
+
+	.carousel-desc> p{
+	 text-align: center;	
+	}	
+	
+
+	
 		@media (max-width: 1024px){
 			.desktop {
 			  display : none!important;
+			}
+			
+			.first-column{
+				margin-bottom: 30px;
 			}
 		}
 		
@@ -37,6 +57,34 @@
 			 height: 18px;
 			 width: 21px;
 		}
+		
+		.button_envelope-solid{
+		 background-image: url("envelope-solid.svg");
+		     background-position: center;
+			 background-repeat: no-repeat;
+			 display: inline-block;
+			 height: 15px;
+			 width: 21px;
+		}
+		
+		.button_phone-solid{
+		 background-image: url("phone-solid.svg");
+		     background-position: center;
+			 background-repeat: no-repeat;
+			 display: inline-block;
+			 height: 15px;
+			 width: 21px;
+		}
+		
+		.button_house-chimney-solid{
+		 background-image: url("house-chimney-solid.svg");
+		     background-position: center;
+			 background-repeat: no-repeat;
+			 display: inline-block;
+			 height: 15px;
+			 width: 21px;
+		}
+		
 		.footer-button_linkedin{
 		 background-image: url("linkedin-in-brands.svg");
 			background-position: center;
@@ -607,23 +655,29 @@
 
 <div class="container mt-3"> 
 
-  <h1>Small Grid</h1> 
+ <div class="carousel-desc">	
+  <h1>Multi Purpose Theme</h1> 
 
-  <p>The following example will result in a 25%/75% split on small, medium, large, xlarge and xxlarge devices (<strong>576px and above</strong>). On extra small devices, it will stack (100% width).</p> 
-
-  <p>Resize the browser window to see the effect.</p> 
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	
+	
+ </div> 	
 
   <div class="container-fluid"> 
 
    <div class="row stat-icons"> 
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 first-column">
 
 	<img src="heart-solid.svg" class="stat-icon svg-icon" alt="">	
 	<br/><br/>
      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
 
-     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	
+	<br/><br/>
+	
+	<button type="button" onclick="alert('Read More')">Read More</button>	
 
     </div> 
 
@@ -632,7 +686,11 @@
 	<img src="desktop-solid.svg" class="stat-icon svg-icon" alt="">	
 	<br/><br/>
      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
+	 
+	<br/><br/>
+	
+	<button type="button" onclick="alert('Read More')">Read More</button>	 
+	 
     </div> 
 
     <div class="col-sm-4">
@@ -640,6 +698,9 @@
 	<img src="location-arrow-solid.svg" class="stat-icon svg-icon" alt="">
 	<br/><br/>
      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	 <br/><br/>
+	
+	<button type="button" onclick="alert('Read More')">Read More</button>
 
     </div> 
 
@@ -658,30 +719,57 @@
   </div> 
 
   <div class="container-fluid"> 
+	
+	<div class="row stat-icons"> 
 
-    <div class="row"> 
+    <div class="col-sm-4">
 
-     <div class="col-sm-4 bg-primary text-white"> 
+	<h2>eNno</h2>	
+	<br/><br/>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
-
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-     </div> 
-
-     <div class="col-sm-4 bg-dark text-white"> 
-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-     </div> 
-
-     <div class="col-sm-4 bg-primary text-white"> 
-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-     </div> 
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
     </div> 
+
+    <div class="col-sm-4">
+	
+	<h2>Latest Posts</h2>	
+	<br/><br/>
+     This is awesome post title.
+	 <br/>
+	 <br/>
+	 Awesome features are awesome.
+	 <br/>
+	 <br/>
+	 Create your own awesome website.
+	 <br/>
+	 <br/>
+	 Wow this is fourth post title.
+	 <br/>
+	 
+    </div> 
+
+    <div class="col-sm-4">
+
+	<h2>Stay in touch</h2>	
+	<br/><br/>
+     
+	<a href="javascript:void(0)"><span class="button_envelope-solid"></span></a> example@gmail.com
+	<br/>
+	<br/>
+	<br/>
+	<a href="javascript:void(0)"><span class="button_phone-solid"></span></a> +345 578 5945415
+	<br/>
+	<br/>
+	<br/>	
+	<a href="javascript:void(0)"><span class="button_house-chimney-solid"></span></a>	Enno inc |PO Box 23456 Little Lonsdale St
+	<br/>New York
+	<br/>Victoria 8011 USA
+    </div> 
+
+   </div>
+    
 
    </div> 
 
