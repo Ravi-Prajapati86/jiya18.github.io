@@ -18,6 +18,19 @@
 
 	.carousel-desc> p{
 	 text-align: center;	
+	}
+
+	.button-column> button{
+    margin-left: 120px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+	}
+
+	.button-column> h2 {
+		font-size: calc(1.325rem + .9vw);
+		text-align: center;
+		margin-right: 20px;
 	}	
 	
 
@@ -27,9 +40,14 @@
 			  display : none!important;
 			}
 			
-			.first-column{
+			.button-column{
 				margin-bottom: 30px;
 			}
+			
+			.latest-post-column{
+				margin-bottom: 30px;
+			}
+			
 		}
 		
 		@media (min-width: 1024px){
@@ -129,6 +147,7 @@
 			width: auto;
 			height: 8.3em;
 			margin: -0.5em auto;
+			margin-left: 95px;
 		}
 		
 		
@@ -667,8 +686,9 @@
 
    <div class="row stat-icons"> 
 
-    <div class="col-sm-4 first-column">
-
+    <div class="col-sm-4 button-column">
+	<h2>Responsive</h2>
+	<br/>
 	<img src="heart-solid.svg" class="stat-icon svg-icon" alt="">	
 	<br/><br/>
      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
@@ -681,8 +701,9 @@
 
     </div> 
 
-    <div class="col-sm-4">
-
+    <div class="col-sm-4 button-column">
+	<h2>Multipurpose</h2>
+	<br/>
 	<img src="desktop-solid.svg" class="stat-icon svg-icon" alt="">	
 	<br/><br/>
      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
@@ -693,8 +714,9 @@
 	 
     </div> 
 
-    <div class="col-sm-4">
-
+    <div class="col-sm-4 button-column">
+	<h2>Easy Customize</h2>
+	<br/>
 	<img src="location-arrow-solid.svg" class="stat-icon svg-icon" alt="">
 	<br/><br/>
      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
@@ -722,7 +744,7 @@
 	
 	<div class="row stat-icons"> 
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 button-column">
 
 	<h2>eNno</h2>	
 	<br/><br/>
@@ -732,10 +754,10 @@
 
     </div> 
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 latest-post-column">
 	
 	<h2>Latest Posts</h2>	
-	<br/><br/>
+	<br/>
      This is awesome post title.
 	 <br/>
 	 <br/>
